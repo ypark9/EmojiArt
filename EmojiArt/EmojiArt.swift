@@ -10,8 +10,8 @@ import Foundation
 
 struct EmojiArt {
     var backgroundURL : URL?
-    var emoji = [Emoji]()
-    struct Emoji : Identifiable {
+    var emojis = [emoji]()
+    struct emoji : Identifiable {
        // for identify
         var id: Int
         
@@ -34,6 +34,6 @@ struct EmojiArt {
     
     mutating func addEmoji(_ text : String, x: Int, y : Int, size : Int) {
         uniqueEmojiID += 1
-        emoji.append(Emoji(text: text, x: x, y: y, size: size, id: uniqueEmojiID))
+        emojis.append(emoji(text: text, x: x, y: y, size: size, id: uniqueEmojiID))
     }
 }
