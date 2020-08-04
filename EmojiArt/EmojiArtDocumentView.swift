@@ -18,7 +18,7 @@ struct EmojiArtDocumentView: View {
                     ForEach(EmojiArtDocument.palette.map{String($0)}, id: \.self) { emoji in
                         Text(emoji)
                             .font(Font.system(size: self.defaultEmojiSize))
-                    }
+                    } 
                 }
             }
             Rectangle().foregroundColor(.yellow)

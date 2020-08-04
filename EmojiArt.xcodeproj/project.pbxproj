@@ -14,6 +14,7 @@
 		AB2CA3F924D904B7005A2C5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2CA3F824D904B7005A2C5C /* Preview Assets.xcassets */; };
 		AB2CA3FC24D904B7005A2C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2CA3FA24D904B7005A2C5C /* LaunchScreen.storyboard */; };
 		AB2CA40424D904F9005A2C5C /* EmojiArtDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2CA40324D904F9005A2C5C /* EmojiArtDocument.swift */; };
+		AB2CA40624DA1B99005A2C5C /* EmojiArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2CA40524DA1B99005A2C5C /* EmojiArt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AB2CA3FB24D904B7005A2C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB2CA3FD24D904B7005A2C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB2CA40324D904F9005A2C5C /* EmojiArtDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocument.swift; sourceTree = "<group>"; };
+		AB2CA40524DA1B99005A2C5C /* EmojiArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				AB2CA40324D904F9005A2C5C /* EmojiArtDocument.swift */,
 				AB2CA3F324D904AF005A2C5C /* EmojiArtDocumentView.swift */,
+				AB2CA40524DA1B99005A2C5C /* EmojiArt.swift */,
 				AB2CA3EF24D904AF005A2C5C /* AppDelegate.swift */,
 				AB2CA3F124D904AF005A2C5C /* SceneDelegate.swift */,
 				AB2CA3F524D904B7005A2C5C /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 			files = (
 				AB2CA3F024D904AF005A2C5C /* AppDelegate.swift in Sources */,
 				AB2CA3F224D904AF005A2C5C /* SceneDelegate.swift in Sources */,
+				AB2CA40624DA1B99005A2C5C /* EmojiArt.swift in Sources */,
 				AB2CA3F424D904AF005A2C5C /* EmojiArtDocumentView.swift in Sources */,
 				AB2CA40424D904F9005A2C5C /* EmojiArtDocument.swift in Sources */,
 			);
