@@ -13,6 +13,7 @@ class EmojiArtDocument : ObservableObject {
     
     @Published private var emojiArt : EmojiArt = EmojiArt()
     
+    
     // MARK: - intents
     func  addEmoji(_ emoji : String, at location : CGPoint, size : CGFloat) {
         emojiArt.addEmoji(emoji, x: Int(location.x), y:  Int(location.y), size: Int(size))
@@ -25,9 +26,13 @@ class EmojiArtDocument : ObservableObject {
         }
     }
     
-    func  scaleEmoji(_ emoji : EmojiArt.emoji, by scale: CGFloat) {
+    func scaleEmoji(_ emoji : EmojiArt.emoji, by scale: CGFloat) {
         if let index = emojiArt.emojis.firstIndex(matching: emoji){
             emojiArt.emojis[index].size = Int((CGFloat(emojiArt.emojis[index].size) * scale).rounded(.toNearestOrEven))
         }
+    }
+    
+    func setBackgroundURL(_ url : URL?) {
+        emojiArt.backgroundURL = url?.imageURL
     }
 }
